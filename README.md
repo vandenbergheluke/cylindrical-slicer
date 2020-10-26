@@ -1,6 +1,9 @@
 # Cylindrical 3D Printer Add-on - Cylindrical Slicer 0.1.0-alpha
 This is an add-on to convert a traditional Cartesian FDM 3D printer into a cylindrical 3D printer. This project involves the installation of an apparatus to replace the y-axis of the 3D printer with a rotating cylinder as well as the use of custom slicing software. By the end, you will be able to print a couple of models with a cylindrical 3D printer and slice 3D models with non-planar slicing techniques. This project was designed to work with the Anet A8 with Marlin firmware. However, this project can likely be adapted to work on other Cartesian FDM 3D Printers through a few modifications in the slicing software and the cylindrical 3D printer apparatus. The slicer was programmed from scratch in Python 3.7 using the numpy-stl library https://pypi.org/project/numpy-stl/ and the Panda3D Engine https://pypi.org/project/Panda3D/. Please read the guide found in the DOCUMENTATION folder before beginning.
 
+## PLEASE BE AWARE: 
+This project has many problems. The slicer has bugs and can be quite slow. This is a project that is very early in development. It was made by a student (me) who has never done this before. USE AT YOUR OWN RISK! I did this with the intent to make something cool and I did my best to make it so you can make something cool too.
+
 ## Demo Videos
 https://www.youtube.com/watch?v=Pq-NW0AvSuk<br />
 https://www.youtube.com/watch?v=2twj22HswTA<br />
@@ -29,6 +32,3 @@ https://www.youtube.com/watch?v=FFyrccP61u0<br />
       - Cylinder
       - Bracelet
       - Lotus
-            
-## PLEASE BE AWARE: 
-This project has many problems. The slicer has bugs and can be quite slow. This is a project that is very early in development. It was made by a student (me) who has never done this before. USE AT YOUR OWN RISK! I did this with the intent to make something cool and I did my best to make it so you can make something cool too.
