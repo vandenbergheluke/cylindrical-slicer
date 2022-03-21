@@ -72,8 +72,8 @@ class layer_viewer():
 
         for j in range(0, len(self.layer_bounds)):
             painter.drawLine(
-            QtCore.QPoint(self.layer_bounds[j][0] * s + t_1, self.layer_bounds[j][1] * s + t_2), 
-            QtCore.QPoint(self.layer_bounds[j][3] * s + t_1, self.layer_bounds[j][4] * s + t_2)
+            QtCore.QPoint(int(self.layer_bounds[j][0] * s + t_1), int(self.layer_bounds[j][1] * s + t_2)), 
+            QtCore.QPoint(int(self.layer_bounds[j][3] * s + t_1), int(self.layer_bounds[j][4] * s + t_2))
             )
         painter.end()
       
